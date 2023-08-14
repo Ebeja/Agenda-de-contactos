@@ -103,7 +103,7 @@ public class Main {
                             String contactoNombre = resultadBusqueda.getString("nombre");
                             String contactoEmail = resultadBusqueda.getString("email");
                             String contactoTelefono = resultadBusqueda.getString("telefono");
-                            System.out.println("Contact found:");
+                            System.out.println("Contacto encontrado:");
                             System.out.println("ID: " + id);
                             System.out.println("Nombre: " + contactoNombre);
                             System.out.println("Email: " + contactoEmail);
